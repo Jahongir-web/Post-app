@@ -5,6 +5,7 @@ const dotenv = require('dotenv')
 dotenv.config()
 
 const userCtrl = {
+  
   login: async (req, res)=> {
     try {
       const {email} = req.body
